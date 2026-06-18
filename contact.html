@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Sanju Venkat for web development projects and collaborations.">
+    <meta name="keywords" content="Contact, Portfolio, Web Developer, HTML, CSS, JavaScript">
+    <meta name="author" content="Sanju Venkat">
+
+    <title>Contact | Sanju Venkat</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">
+        Skip to Main Content
+    </a>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Sanju Venkat</h1>
+            <p>Web Developer & UI Enthusiast</p>
+
+            <nav aria-label="Primary Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <section aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Me</h2>
+
+            <p>
+                Have a project idea or would like to collaborate?
+                Feel free to send me a message.
+            </p>
+
+            <form action="#" method="post" aria-label="Contact Form">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            required>
+                    </div>
+
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </fieldset>
+
+            </form>
+        </section>
+
+        <section aria-labelledby="contact-details">
+            <h2 id="contact-details">Other Ways to Connect</h2>
+
+            <p>
+                Email:
+                <a href="mailto:sanju@example.com">
+                    sanju@example.com
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/yourusername"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    github.com/yourusername
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://linkedin.com/in/yourprofile"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    linkedin.com/in/yourprofile
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sanju Venkat. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
